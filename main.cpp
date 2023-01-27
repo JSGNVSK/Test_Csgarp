@@ -30,15 +30,15 @@ int main()
     cout <<endl;
     cout << "Individualas saraksta vertibas!!" << endl;
 
-    for(int i = 0; i < 4; i++)
+    for(int i = 0; i < 3; i++)
     {
-        cout << jsonData["saraksts1"][i] << endl;
+        cout << jsonData["saraksts2"][i] << endl;
     }
-    cout << jsonData["saraksts1"][2] << endl;
+    cout << jsonData["saraksts3"][1] << endl;
     cout <<endl;
     cout <<endl;
 
-    for(auto &elemts : jsonData["saraksts1"].items())
+    for(auto &elemts : jsonData["saraksts4"].items())
     {
         cout << elemts.value() << endl;
     }
