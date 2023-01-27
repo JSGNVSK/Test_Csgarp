@@ -30,11 +30,11 @@ int main()
     cout <<endl;
     cout << "Individualas saraksta vertibas!!" << endl;
 
-    for(int i = 0; i < 3; i++)
+    for(int i = 0; i < 4; i++)
     {
         cout << jsonData["saraksts1"][i] << endl;
     }
-    cout << jsonData["saraksts1"][1] << endl;
+    cout << jsonData["saraksts1"][2] << endl;
     cout <<endl;
     cout <<endl;
 
